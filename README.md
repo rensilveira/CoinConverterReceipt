@@ -17,7 +17,7 @@ CoinConverterReceipt is available through [CocoaPods](https://cocoapods.org). To
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CoinConverterReceipt'
+pod 'CoinConverterReceipt', :git =>  'https://github.com/rnnsilveira/CoinConverterReceipt.git'
 ```
 
 ## Author
