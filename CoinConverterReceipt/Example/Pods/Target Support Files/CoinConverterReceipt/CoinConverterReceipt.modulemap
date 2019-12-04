@@ -1,6 +1,0 @@
-framework module CoinConverterReceipt {
-  umbrella header "CoinConverterReceipt-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,0 +1,13 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'CoinConverterReceipt_Example' do
+  pod 'CoinConverterReceipt', :path => '../'
+  pod 'SwiftCore', :git => 'https://github.com/rnnsilveira/SwiftCore.git'
+
+  target 'CoinConverterReceipt_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end

@@ -1,0 +1,38 @@
+PODS:
+  - CoinConverterReceipt (0.1.0):
+    - SwiftCore
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SwiftCore (0.1.4)
+
+DEPENDENCIES:
+  - CoinConverterReceipt (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+  - SwiftCore (from `https://github.com/rnnsilveira/SwiftCore.git`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CoinConverterReceipt:
+    :path: "../"
+  SwiftCore:
+    :git: https://github.com/rnnsilveira/SwiftCore.git
+
+CHECKOUT OPTIONS:
+  SwiftCore:
+    :commit: 380e07fd42fe262ef119dab05843b394fd9b0c4d
+    :git: https://github.com/rnnsilveira/SwiftCore.git
+
+SPEC CHECKSUMS:
+  CoinConverterReceipt: e92217aa85e832645524cd941a619025fde2f1f2
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SwiftCore: 8c149ab54429c61dbc0975ce1a95497ead19acb9
+
+PODFILE CHECKSUM: d5dfa37f4bf9e29dc4d60f3dc326b58b8445b3a0
+
+COCOAPODS: 1.8.4

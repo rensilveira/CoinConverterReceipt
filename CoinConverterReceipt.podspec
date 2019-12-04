@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = 'CoinConverterReceipt flow.'
 
   s.description      = <<-DESC
-CoinConverter Receipt flow module.
+CoinConverter Receipt flow swiftModule.
                        DESC
 
   s.homepage         = 'https://github.com/rnnsilveira/CoinConverterReceipt'
@@ -24,5 +24,5 @@ CoinConverter Receipt flow module.
   s.swift_version = '4.2'
   s.source_files = 'CoinConverterReceipt/**/*.{swift}'
 
-  s.dependency 'SwiftCore', :git => 'https://github.com/rnnsilveira/SwiftCore.git'
+  s.dependency 'SwiftCore'
 end

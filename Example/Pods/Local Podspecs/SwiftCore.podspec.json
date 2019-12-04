@@ -1,0 +1,27 @@
+{
+  "name": "SwiftCore",
+  "version": "0.1.4",
+  "summary": "SwiftCore for MVVM-Coordinator.",
+  "description": "Swift MVVM - Coordinator Core Lib.",
+  "homepage": "https://github.com/rnnsilveira/SwiftCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rnnsilveira": "rnn.silveira@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rnnsilveira/SwiftCore.git",
+    "tag": "0.1.4"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "SwiftCore/**/*.{swift}",
+  "exclude_files": [
+    "SwiftCore/Example"
+  ],
+  "swift_version": "4.2"
+}

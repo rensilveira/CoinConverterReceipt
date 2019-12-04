@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Coin Converter Receipt View Controller-->
+        <scene sceneID="RvC-K0-kp3">
+            <objects>
+                <viewController storyboardIdentifier="CoinConverterReceiptViewController" id="S4o-H8-Zt3" customClass="CoinConverterReceiptViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qX5-U2-8qT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Converted" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTP-0q-OgI">
+                                <rect key="frame" x="166.5" y="437.5" width="81" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UcM-MY-UG2">
+                                <rect key="frame" x="350" y="60" width="48" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="0Ki-qj-XpE"/>
+                                    <constraint firstAttribute="width" constant="48" id="zwr-kv-GeT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="X"/>
+                                <connections>
+                                    <action selector="dismissReceipt:" destination="S4o-H8-Zt3" eventType="touchUpInside" id="SyP-fj-jGJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ryc-uX-BTp" firstAttribute="trailing" secondItem="UcM-MY-UG2" secondAttribute="trailing" constant="16" id="dd3-ia-rcz"/>
+                            <constraint firstItem="HTP-0q-OgI" firstAttribute="centerX" secondItem="qX5-U2-8qT" secondAttribute="centerX" id="f9o-kD-zai"/>
+                            <constraint firstItem="HTP-0q-OgI" firstAttribute="centerY" secondItem="qX5-U2-8qT" secondAttribute="centerY" id="hFI-n6-pML"/>
+                            <constraint firstItem="UcM-MY-UG2" firstAttribute="top" secondItem="Ryc-uX-BTp" secondAttribute="top" constant="16" id="lHh-uQ-hPR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ryc-uX-BTp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WeO-hK-2PC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="113"/>
+        </scene>
+    </scenes>
+</document>
