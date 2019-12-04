@@ -24,5 +24,5 @@ CoinConverter Receipt flow swiftModule.
   s.swift_version = '4.2'
   s.source_files = 'CoinConverterReceipt/**/*.{swift}'
 
-  s.dependency 'SwiftCore'
+  #s.dependency 'SwiftCore'
 end
