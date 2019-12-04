@@ -18,19 +18,19 @@ final class CoinConverterReceiptViewController: UIViewController, Coordinated, S
 
     var navigateBack: (() -> Void)?
 
-    var clientName: String {
-        get {
-            return clientNameLabel.text ?? ""
-        }
-
-        set {
-            clientNameLabel.text = newValue
-        }
-    }
+//    var clientName: String {
+//        get {
+//            return clientNameLabel.text ?? ""
+//        }
+//
+//        set {
+//            clientNameLabel.text = newValue
+//        }
+//    }
 
     // MARK: - Private properties
 
-    private var viewModel: CoinConverterReceiptModelProtocol?
+    private var viewModel: CoinConverterReceiptViewModelProtocol?
 
     // MARK: - IBOutlets
 
@@ -42,7 +42,7 @@ final class CoinConverterReceiptViewController: UIViewController, Coordinated, S
         return UIStoryboard.instanciate()
     }
 
-    static func instanciate(withViewModel viewModel: CoinConverterReceiptModelProtocol) -> CoinConverterReceiptViewController {
+    static func instanciate(withViewModel viewModel: CoinConverterReceiptViewModelProtocol) -> CoinConverterReceiptViewController {
         let viewController = CoinConverterReceiptViewController.instanciate()
         viewController.viewModel = viewModel
         return viewController

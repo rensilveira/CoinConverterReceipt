@@ -5,8 +5,8 @@
 //  Created by Renan Silveira on 04/12/19.
 //
 
-import SwiftCore
 import UIKit
+import SwiftCore
 
 final public class CoinConverterReceiptCoordinator: Coordinator {
 

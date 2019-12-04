@@ -29,7 +29,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/rnnsilveira/SwiftCore.git
 
 SPEC CHECKSUMS:
-  CoinConverterReceipt: e92217aa85e832645524cd941a619025fde2f1f2
+  CoinConverterReceipt: a9d18a1e42baf38209a76a7818b982820369d5a9
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   SwiftCore: 8c149ab54429c61dbc0975ce1a95497ead19acb9
 

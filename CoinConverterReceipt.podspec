@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CoinConverterReceipt'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'CoinConverterReceipt flow.'
 
   s.description      = <<-DESC
@@ -22,7 +22,8 @@ CoinConverter Receipt flow swiftModule.
 
   s.ios.deployment_target = '10.0'
   s.swift_version = '4.2'
-  s.source_files = 'CoinConverterReceipt/**/*.{swift}'
+  s.source_files = 'CoinConverterReceipt/**/*.{swift,storyboard}'
+  s.exclude_files = ["CoinConverterReceipt/Example"]
 
-  #s.dependency 'SwiftCore'
+  s.dependency 'SwiftCore'
 end

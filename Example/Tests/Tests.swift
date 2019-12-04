@@ -1,5 +1,5 @@
 import XCTest
-//import CoinConverterReceipt
+import CoinConverterReceipt
 
 class Tests: XCTestCase {
     
