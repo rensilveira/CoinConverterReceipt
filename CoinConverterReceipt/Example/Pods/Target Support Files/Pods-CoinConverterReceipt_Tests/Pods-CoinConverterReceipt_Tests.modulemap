@@ -1,0 +1,6 @@
+framework module Pods_CoinConverterReceipt_Tests {
+  umbrella header "Pods-CoinConverterReceipt_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

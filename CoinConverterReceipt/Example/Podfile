@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CoinConverterReceipt_Example' do
+  pod 'CoinConverterReceipt', :path => '../'
+
+  target 'CoinConverterReceipt_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
